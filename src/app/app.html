@@ -1,0 +1,11 @@
+<div class="container-fluid content" *ngIf="storage">
+  <div class="row">
+    <div class="col-md-8 col-centered">
+      <div class="title">
+        <h1 class="check-load">{{ storage.settings.title || 'TodoList' }}</h1>
+      </div>
+
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

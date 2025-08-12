@@ -1,0 +1,31 @@
+/* Settings Component Styles */
+
+.settings {
+    margin-bottom: 30px;
+}
+
+.settings-back {
+    color: #3377ff !important;
+    clear: left;
+    float: left;
+    padding-top: 15px;
+    font-size: 17px;
+}
+
+.settings-back:hover,
+.settings-back:active {
+    color: #2d63d0 !important;
+}
+
+.settings-title {
+    padding-top: 10px;
+    clear: left;
+}
+
+.reload {
+    margin: 10px;
+}
+
+.-cursor-pointer {
+    cursor: pointer;
+}
